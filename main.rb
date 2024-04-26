@@ -4,6 +4,7 @@ require 'pp'
 require './candidates'
 require './filters'
 
-## Your test code can go here
+#pp @candidates
 
-pp @candidates
+qc = qualified_candidates(@candidates)
+puts "#{qc}"
